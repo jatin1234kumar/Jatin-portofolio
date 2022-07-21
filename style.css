@@ -1173,3 +1173,58 @@ p .about-a:hover {
         padding: 14% 5% 5%;
     }
 }
+
+/* Noraml phone screen */
+
+@media (max-width: 428px) {
+    .button-container {
+        width: 50%;
+        font-size: .9rem;
+    }
+
+    .button-container .button-head {
+        padding: 8px 12px;
+        font-size: .9rem;
+    }
+
+    .Button {
+        width: 70%;
+        font-size: 16px;
+        padding: 0.4rem 1rem;
+    }
+
+    .banner-text .banner-h {
+        font-size: 1.8rem;
+        width: 100%;
+        margin-top: 70%;
+        line-height: 1.3;
+        margin-bottom: 10%;
+    }
+
+    .feature-p {
+        width: 80%;
+    }
+
+    .icons-row {
+        margin-top: 10%;
+    }
+
+    #contact {
+        padding: 50px 20px;
+    }
+
+    .icon-box {
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+    }
+
+    .footer-icon {
+        padding: 10px 12px;
+    }
+
+    .footer-p-box {
+        padding: 20px 2px;
+    }
+}
+
